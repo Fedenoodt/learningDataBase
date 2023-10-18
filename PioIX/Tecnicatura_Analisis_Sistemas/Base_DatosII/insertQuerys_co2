@@ -1,0 +1,25 @@
+CREATE TABLE valores (id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, valor FLOAT, unidad VARCHAR(6), fechaHora VARCHAR(16));
+
+DELIMITER //
+CREATE PROCEDURE insercion(repeticiones INT, rand_valor INT, condicion INT, rand_unidad TEXT)
+AS
+BEGIN
+	DECLARE
+		SET @repeticiones = 0;
+    WHILE repeticiones < 200 DO
+        SET @rand_valor = SELECT FLOOR(30 + RAND()*(300-30));
+
+        SET @condicion = SELECT FLOOR(1 + RAND()*(4-1));
+        IF @condicion = 1 THEN SET @rand_unidad = "mmH2O" ;
+        ELSEIF @condicion = 2 THEN SET @rand_unidad = "mmHg" ;
+        ELSEIF @condicion = 3 THEN SET @rand_unidad = "Pa" ;
+        ELSEIF @condicion = 4 THEN SET @rand_unidad = "Bar" ;
+        
+        SET @horaFecha = SELECT NOW()
+
+        INSERT INTO valores (valor, unidad, fechaHora) VALUES (rand_valor, rand_unidad, horaFecha);
+
+        SET @repeticiones = @repeticiones + 1 ;
+        END WHILE;
+    END //
+DELIMITER ;

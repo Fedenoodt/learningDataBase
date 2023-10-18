@@ -1,0 +1,28 @@
+	-Clase #3:16-09-2020_Miercoles:
+En el diagrama de flujo de la biblioteca, tenes mal planteadas las entidades 'biblioteca', 'libro', falta 'estanterias'.
+Y tener juntos los atributos de serie, coleccion y numeros no es sano.
+(Dato de color: El apodo del profe es "Equi")
+	-Clase #4: 23-09-2020_Miercoles:
+La clase consistió de instalar los aditivos y el mismo PHPMyAdmin, yo despúes por mi cuenta tengo que instalarlo. El comando que uso Equi, fue: sudo chmod -x (Archivo.run).
+	-Clase #5: 30-09-2020_Miercoles:
+La clase de hoy consistió en analizar el concepto de un host, y los dominios.
+-Dominios: Nombre registrado de la página.
+-Host: Servicio que brinda la posibilidad de montar una web.
+Y cerramos repasando el armado de base de datos, y solucionando el problema mio.
+
+	-Clase #6: 07-10-2020_Miercoles:
+Hoy no tuvimos clase.
+	-Clase #7: 14-10-2020_Miercoles:
+Hoy estuvimos racticando sobre las consultas en las bases de datos.
+	-Clase #8: 21-10-2020_Miercoles:
+...Y hoy también.
+	-Clase #9: 28-10-2020_Miercoles:
+Hoy vimos el uso de los Join, Inner Join, Left Join, y Right Join.
+	-Clase #10: 04-11-2020_Miercoles:
+Tarea para el hogar: El profe quiere que de la base de datos de los contactos, seleccionemos nombre, apellido, razonSocial, direccion, localidad y provincia.
+Y de la empresa quiere saber la cantidad de contactos
+	-Clase #10: 11-11-2020_Miercoles:
+Tarea para el hogar: Hacer hasta el E de la base de datos de Barrio.sql. Para el trabajo grupal, sería bueno recomendarle cosas al cliente(profesor) sobre el quehacer con la base de la Inmobiliaria.
+Dato extra: el final va a ser muy similar al trabajo grupal. Va a ser un ejercicio DER, pasar a tablas, y es muy probable que sea en solitario.
+	-Clase #11: 18-11-2020_Miercoles:
+La fecha de entrega del final es el 9 de Diciembre, y la otra es el 16 de Diciembre.

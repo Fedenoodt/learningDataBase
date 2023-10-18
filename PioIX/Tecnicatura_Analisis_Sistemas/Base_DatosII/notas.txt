@@ -1,0 +1,88 @@
+    -Clase #2(Nada perdido): 29-03-2022_Martes(Virtual):
+
+El profe quiere que resolvamos el problema 1 planteado en la web. Tenés que pedirle acceso al archivo, para poder tratarlo. Tiene grado de tarea.
+El ejercicio plantea algo así como reslover un caso de cuadro no web desordenado que no representa los ideales de un SQL, y hay que arrweglarlo, fijandose con exactitud la documentación de SQL.
+    -Clase #3: 05-04-2022_Martes:
+El profe empezò analizando como funciona pythonanywhere, y yo logeando ahi. Lo que empezò por hacer, es jugar con la base de datos de la tarea, desde la consola de la misma pagina.
+Abrieron la base y empezaron a modificarla.
+Usaron DISTINCT para identificar por unidad a cada provincia, y ALTER para modificar a algunos de los nombres.
+    -Clase #4: 12-04-2022_Martes(Virtual):
+    
+Hoy seguimos "jugando" con la base de datos de Ahora 12.
+SELECT @x:=(Para asignar una variable)
+Vimos que cuando se exporta una base de datos desde PHPMyadmin, exporta basicamente la sentencia de ensamble de la misma.
+
+Línea especial: Es importante preguntarle a Diego el concepto de "Normalizar" cuando vaya el martes que viene.
+
+    -Clase #5: 19-04-2022_Martes:
+    
+Ya està. El "Concepto" de normalizar, es hacer de una tabla de datos, una base de datos, no te compliques mas, porque lo sabes.
+
+La clase de hoy empezó bien arriba con Diego diciendo que hay que entregar un trabajo en cinco horas. Al grano.
+Para cargar archivos, tengo que buscar en mi espacio, el boton de "Browse files/Upload a file" y cargar.
+Los archivos comprimidos se pueden cargar en  pythonanywhere. Al caso de lo0s ZIP, dentro del bash, uno puede dar comando de "unzip (Nombre de archivo).zip" para desplegar los archivos comprimidos.
+
+    -Clase #6: 26-04-2022_Martes(Virtual):
+
+El profe arrancó la clase mostrando que se pueden almacenar consultas en "Procedimientos". Estos son conjuntos de consultas símples que recaudan la información que se necesita, información puntual. Estos se pueden llamar.
+Estos se crean con "CREATE PROCEDURE nombre BEGIN ... END"
+Pythonanywhere presenta un problema, y es que para delimitar, hay que decirle que delimite con "delimiter "X"".
+Los procedimientos se llaman con Call nombre(delimitador).
+
+CREATE PROCEDURE nombre(cant INT)
+BEGIN
+WHILE cant > 0 DO
+    IF mod(cant, 2) = 0 THEN
+    SELECT cant AS numerito;
+    END IF;
+    SET cant = cant - 1;
+    END WHILE;
+END(delimitador)
+Es una estructura de while de SQL.
+
+    -Clase #7: 03-05-2022_Martes:
+
+Hoy no tuvimos clase.
+
+Una nota personal para algo que me estaba confundiendo. La forma de manipular pythonanywhere, es desde el BASH, no en la terminal básica. No entiendo porqué, pero funciona así.
+
+    -Clase #8: 10-05-2022_Martes(Virtual):
+
+Hoy no tuvimos clase.
+
+    -Clase #9: 17-05-2022_Martes:
+
+Hoy no tuvimos clase.
+
+    -Clase #10: 24-05-2022_Martes(Virtual):
+Hoy seguimos analizando los procedimientos con SQL, y vimos que como hacíamos el execute, hacemos, llamando al archivo, una función que contenga las órdenes.
+El profe también nos contó, que a veces para hacer un programa de selección, nos conviene NO normalizarla por que si hacemos los dos pasos, perdería eficacia.
+SP es la manera de identificar a un store procedure (procedimiento almacenado).
+
+El profe quiere que nos esforzemos con la nota parcial, haciendo el trabajo del 19 de abril.
+
+    -Clase #11: 31-05-2022_Martes:
+Hoy arrancamos la clase viendo al profe crear procedimientos almacenados. Es algo asì como hacer las sentencias, mezclando y haciendo juego con Python.
+Después el profe quizo que trataramos de hacer los procedimientos para loas consultas nosotros solos el ejercicio de clase.
+Así: (https://docs.google.com/document/d/1F1VdYWfuQor_pQDcHKMBW8Eo9pxw095HiQG2KpjE8aY/edit) se crean, y este: (https://docs.google.com/document/d/1N6lVj8vv_d61l_Se694C00dIfmp033ezZyXzTlme2dg/edit) es el ejercicio.
+El Formato de string con fecha ISO8601 se refiere a escribir la fecha con este formato: 31-05-2022T19:38,nada más, es solo eso.
+
+Las páginas de formateo SQL que el profe pasó el otro día, tienen que ver solamente con páginas que le dan "Estética y dispocición" a la base de datos.
+
+Los triggers son "disparadores" que hacen cosas. Con AFTER, uno define condiciones sobre lo que se le quiere hacer a la base. Antes de ingresar, modificar, y eliminar datos.
+
+    -Clase #12: 07-06-2022_Martes:
+
+Hoy no tuvimos clase.
+
+    -Clase #13: 14-06-2022_Martes:
+    
+Hoy no tuvimos clase.
+
+    -Clase #14: 21-06-2022_Martes:
+    
+Hoy no tuvimos clase.
+
+    -Clase #15: 28-06-2022_Martes:
+
+Hoy no tuvimos clase.
